@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "timesalecheck",
+            "request": "launch",
+            "mainClass": "timesalecheck",
+            "projectName": "Simplejavaproj_44bc0ed1"
+        },
+        {
+            "type": "java",
+            "name": "flightattadent",
+            "request": "launch",
+            "mainClass": "flightattadent",
+            "projectName": "Simplejavaproj_44bc0ed1"
+        },
+        {
+            "type": "java",
+            "name": "ageandgrade",
+            "request": "launch",
+            "mainClass": "ageandgrade",
+            "projectName": "Simplejavaproj_44bc0ed1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
