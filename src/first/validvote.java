@@ -1,5 +1,5 @@
 package first;
-
+// 3주치 과제 3번, "유권자 수와 투표자 수를 입력 받아 투표율이 50% 이상인 경우 “유효 투표입니다”를 출력하는 프로그램을 작성하시오."
 import java.util.Scanner;
 public class validvote {
     public static void main(String[] args) {
