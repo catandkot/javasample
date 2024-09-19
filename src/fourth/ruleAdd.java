@@ -6,6 +6,15 @@ package fourth;
 
 public class ruleAdd {
     public static void main(String[] args) {
-        int count, sum;
+        int count=0, sum=1;
+        do {
+            if (count==14) {
+                System.out.print(sum);
+            } else {
+                System.out.print(sum+", ");
+            }
+            count++;
+            sum+=count;
+        } while (count<15);
     }
 }
