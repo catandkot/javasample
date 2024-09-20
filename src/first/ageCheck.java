@@ -15,13 +15,16 @@ public class ageCheck {
         System.out.println("나이를 입력해주십시오.");
         // 화면에 해당 문자를 출력합니다.
         age = sc.nextInt();
-        // 변수 age를
+        // 입력된 숫자를 정수형으로 받아 age 변수에 대입합니다.
         if (age<19) {
             System.out.println("미성년자입니다.");
+            // 만약 나이가 19세 미만이라면 미성년자를 출력합니다.
         } else if (age == 19) {
             System.out.println("19세입니다.");
+            // 만약 나이가 19세라면 19세라고 출력합니다.
         } else {
             System.out.println("성인입니다.");
+            // 만약 나이가 19세를 초과한다면 성인으로 출력합니다.
         }
     }
 }
