@@ -26,5 +26,6 @@ public class moviePrice {
         }
         System.out.println("사람 수 : "+people+"명");
         System.out.println("총 비용("+printPercent+"%할인 적용) : "+finalPrice);
+        // 입력된 사람 인원 수와 총 비용을 출력해줍니다.
     }
 }

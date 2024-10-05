@@ -7,10 +7,12 @@ public class priceCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double count, price, finalPrice;
+        // 개수와 단가와 최종 값을 위한 변수를 생성해줍니다.
         System.out.println("상품의 개수를 입력해주십시오.");
         count = sc.nextInt();
         System.out.println("상품의 단가를 입력해주십시오.");
         price = sc.nextInt();
+        // 상품의 개수와 단가를 입력받아 각각 변수에 대입합니다.
         if (count>=300) {
             finalPrice=count*price*0.8;
         } else if (200<=count & 299>=count) {
@@ -20,6 +22,9 @@ public class priceCalculator {
         } else {
             finalPrice=count*price;
         }
+        // 만약 300개 이상일 시 20프로를, 200~299개일시 15프로를, 100~199개일시 8프로를,
+        // 그 이외의 경우 할인을 적용하지 않고, 계산값을 최종값 변수에 대입합니다.
         System.out.println("총 금액 : "+finalPrice);
+        // 최종 값을 출력합니다.
     }
 }
