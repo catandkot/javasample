@@ -6,19 +6,23 @@ package fifth;
 
 public class compareArray {
     public static void main(String[] args){
-        int [] something = {234, 89, 678, 55, 785, 66};
-        int maxval=something[0];
-        int minval=something[0];
+        int [] array = {234, 89, 678, 55, 785, 66};
+        int maxval=array[0];
+        int minval=array[0];
+        // 배열과 최댓값, 최솟값을 저장할 변수를 만들어줍니다.
 
-        for (int i=1;i<something.length;i++){
-            if (something[i]>maxval){
-                maxval=something[i];
+        for (int i=1;i<array.length;i++){
+            if (array[i]>maxval){
+                maxval=array[i];
+                // 배열의 i번째 값과 현재 변수의 값을 비교해, 변수의 값이 크다면 최대값 변수에 저장합니다.
             }
-            if (something[i]<minval){
-                minval=something[i];
+            if (array[i]<minval){
+                minval=array[i];
+                // 배열의 i번째 값과 현재 변수의 값을 비교해, 변수의 값이 작다면 최솟값 변수에 저장합니다.
             }
         }
         System.out.println("가장 큰 값 : "+maxval);
         System.out.println("가장 작은 값 : "+minval);
+        // 최댓값과 최솟값을 각각 출력해줍니다.
     }
 }
