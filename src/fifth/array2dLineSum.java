@@ -8,15 +8,6 @@ public class array2dLineSum {
             // 배열을 생성해줍니다.
 
 
-            for (int j = 0; j < array[i].length; j++) {
-                    // 변수의 가로 길이만큼 반복합니다.
-                    for (int i = 0; i < array.length; i++) {
-                            // 변수의 세로 길이만큼 반복합니다.
-
-                    }
-            }
-
-
             int firstSum, secondSum, thirdSum, fourthSum;
             firstSum = array[0][0]+array[1][0]+array[2][0]+array[3][0];
             secondSum = array[0][1]+array[1][1]+array[2][1]+array[3][1];
